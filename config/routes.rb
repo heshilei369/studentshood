@@ -1,5 +1,6 @@
 Studentshood::Application.routes.draw do
-  get "users/new"
+  #get "users/new"
+  resources :users
   root to: 'home#index'
   match '/help',   to: 'home#help',   via: 'get'
   match '/about',   to: 'home#about',   via: 'get'
