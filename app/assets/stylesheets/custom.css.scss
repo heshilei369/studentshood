@@ -36,6 +36,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: #ffffff;
 }
 
 h2 {
@@ -44,12 +45,46 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #999;
+  color: #ffffff;
 }
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+div.intro
+{
+  background: url(background.png);
+  border: 2px solid black;
+}
+
+div.img
+{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ffffff;
+  height: 300px;
+  width: 210px;
+  float: left;
+  text-align: center;
+}	
+
+div.img img
+{
+  display: inline;
+  margin: 5px;
+  border: 1px solid #ffffff;
+  height: 200px;
+  width: 200px;
+}
+div.img a:hover img {border: 1px solid #C0C0C0;}
+div.desc
+{
+  text-align: left;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
 }
 
 /* header */

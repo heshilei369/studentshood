@@ -6,8 +6,23 @@
            <ul class="nav pull-right">
              <li><%= link_to "Home",    root_path %></li>
              <li><%= link_to "Help",    help_path %></li>
+             
+             <li id="fat-menu" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                University <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Royal Institute of Technology", '#' %></li>
+                <li><%= link_to "Stockholm University", '#' %></li>
+                <li><%= link_to "Karolinska Institutet", '#' %></li>
+                <li><%= link_to "Chalmers University of Technology", '#' %></li>
+              </ul>
+             </li>
+            
              <% if signed_in? %>
+             <!--
             <li><%= link_to "Users", '#' %></li>
+            -->
             <li id="fat-menu" class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Account <b class="caret"></b>
