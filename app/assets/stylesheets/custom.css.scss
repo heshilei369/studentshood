@@ -56,18 +56,14 @@ p {
 div.intro
 {
   background: url(background.png);
-  border: 2px solid black;
+  border: 2px solid #ffffff;
+  background-size:300px 900px;
 }
 
 div.img
 {
-  margin: 5px;
-  padding: 5px;
-  border: 1px solid #ffffff;
   height: 300px;
   width: 210px;
-  float: left;
-  text-align: center;
 }	
 
 div.img img
