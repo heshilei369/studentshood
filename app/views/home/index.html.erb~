@@ -1,3 +1,10 @@
+        <link href="/css/responsivelandingpage/style.css" rel="stylesheet">
+        <link href="/css/responsivelandingpage/component.css" rel="stylesheet">
+        <link href="/css/jquery.custombox.css" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="/css/responsivelandingpage/loginregisterpopup.css" />
+       <script language="javascript" type="text/javascript" src="/js/responsivelandingpage/jquery-1.10.2.min.js"></script>
+       <script language="javascript" type="text/javascript" src="/js/jquery.custombox.js"></script>
+       <script language="javascript" type="text/javascript" src="/js/responsivelandingpage/modernizr.custom.js"></script>
 
 
 <div class="container-fluid">
@@ -52,47 +59,48 @@
 	</div>
 
 <div class="container-fluid">
-	<div class="span12">
 	<div class="row">
-		<div class="span4 titleblock">
-		   <h4>Royal Institute of Technology</h4>
+		<div class="span4">
+		   <h3 class="text-left">Royal Institute of Technology</h3>
 		</div>
 
-		<div class="span4 titleblock">
-		<h4>Stockholm University</h4>
+		<div class="span4">
+		<h3 class="text-left">Stockholm University</h3>
 		</div>
 
-		<div class="span4 titleblock">
-		<h4 >Chalmers University of Technology</h4>
+		<div class="span4">
+		<h3 class="text-left">Chalmers University of Technology</h3>
 		</div>
 	
 	</div>
-	</div>
+
 </div>
 
+
 <div class="container-fluid">
-	<div class="span12">
 	<div class="row">
 		<div class="span4 img">
+		   <h3 class="text-left">Royal Institute of Technology</h3>
 			<%= link_to image_tag("kth.jpg", alt: "Royal Institute of Technology",class: "img-circle"), kth_path %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-
+			<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
 		</div>
 
 		<div class="span4 img">
+		<h3 class="text-left">Stockholm University</h3><br></br>
 			<%= link_to image_tag("su.png", alt: "Stockholm University",class: "img-circle"), '#' %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-
+			<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+                       
 		</div>
 
 		<div class="span4 img">
+		<h3 class="text-left">Chalmers University of Technology</h3>
 			<%= link_to image_tag("cth.jpg", alt: "Chalmers University of Technology",class: "img-circle"), '#' %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-
+			<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+                       
 		</div>
 	
 	</div>
-	</div>
+
 </div>
 
 
@@ -102,37 +110,35 @@
   <p>"Name it, hood up!"</p>
 </blockquote>
 
-<br></br>
-
 <h3 class="bg-success"> Come to One group, Meet all The world! </h3>
 
 <!-- Standard button -->
-<button type="button" class="btn btn-default titleblock">Study&Academic</button>
+<button type="button" class="btn btn-default">Study&Academic</button>
 
 <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-<button type="button" class="btn btn-primary titleblock">Jobs</button>
+<button type="button" class="btn btn-primary">Jobs</button>
 
 <!-- Indicates a successful or positive action -->
-<button type="button" class="btn btn-success titleblock">Market</button>
+<button type="button" class="btn btn-success">Market</button>
 
 <!-- Contextual button for informational alert messages -->
-<button type="button" class="btn btn-info titleblock">Housing</button>
+<button type="button" class="btn btn-info">Housing</button>
 
 <!-- Indicates caution should be taken with this action -->
-<button type="button" class="btn btn-warning titleblock">Bargains</button>
+<button type="button" class="btn btn-warning">Bargains</button>
 
 <!-- Indicates a dangerous or potentially negative action -->
-<button type="button" class="btn btn-danger titleblock">Events</button>
+<button type="button" class="btn btn-danger">Events</button>
 
 <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-<button type="button" class="btn btn-link titleblock">More ...</button>
-<br></br>
+<button type="button" class="btn btn-link">More ...</button>
+
 
 <div class="row-fluid">
 <ul class="thumbnails">
   <li class="span4">
-    <div class="thumbnail img">
-     <%= link_to image_tag("kth.jpg", alt: "Royal Institute of Technology",class: "img-circle"), kth_path %>
+    <div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="" class = "img-circle">
       <h3>Thumbnail label</h3>
       <p>Thumbnail caption...</p>
     </div>
