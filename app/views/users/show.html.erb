@@ -1,3 +1,4 @@
+<body class="background">
 <% provide(:title, @user.name) %>
 <div class="row">
   <aside class="span4">
@@ -10,4 +11,268 @@
   </aside>
 </div>
 
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div style="background-color:white;" class="span2">
+			<ul class="nav nav-list">
+				<li class="nav-header">
+					Course
+				</li>		
+				<li>
+					<a href="#">Business Development Lab of Entrepreneuship Engineers</a>
+				</li>
+				<li>
+					<a href="#">Embedded Systems</a>
+				</li>
+				<li>
+					<a href="#">Computer System Architecture</a>
+				</li>
+				<li class="nav-header">
+					Group
+				</li>
+				<li class="active">
+					<a href="#">Ruby on rails</a>
+				</li>
+				<li>
+					<a href="#">Street Dance</a>
+				</li>
+				<li>
+					<a href="#">FPGA</a>
+				</li>
+				<li class="divider">
+				</li>
+				<li>
+					<a href="#">Help</a>
+				</li>
+			</ul>
+		</div>
+		<div style="background-color:white;" class="span7">
+			<ul class="thumbnails">
+					<div class="thumbnail">
+                     <div class="topics">
+                           <div class="topic topic_line">
+                       <div class="pull-left avatar">
+                         <a href="/special"><img alt="9593" class="uface" src="http://l.ruby-china.org/user/large_avatar/9593.jpg" style="width:48px;height:48px;" /></a>
+                       </div>
+                       
+                       <div class="right_info">
+                         <div class="pull-right replies">
+                             <a class="count state_false" href="/topics/18610#reply14">14</a>
+                         </div>
+                         <div class="infos">
+                           <div class="title">
+                             <a href="/topics/18610" title="How does ActiveRecord connects to the database?">How does ActiveRecord connects to the database?</a>    
+                           </div>
+                           <div class="media-body">
+                           <p>
+		                       Hi all,
+                      
+                     I'm a beginner with RoR and Ruby so please bear with me. I have a .NET/Java background.<br>
+                      
+                     Can somebody explain how ActiveRecord actually connects to the database? Is it all done behind the scene everytime I do a call to the model? If so, do I just put my connection info in database.yml? In this case, could somebody point me to a page where there would be code samples on how to configure each database connection (mysql, postgres, sqlite3, etc)
+                      
+                     Or do I have to explicity call something like this: ActiveRecord::Base.establish_connection(dbconfig) to make sure other calls will work?
+                      
+                     Thank you for your help,
+		                     </p> 
+		                     </div>
+                           <div class="info">
+                             <a class="node" href="/topics/node2">KTH</a>
+                             •
+                             <a data-name="special" href="/special">Ruby on rails</a>
+                             <em>
+                               •
+                                 Last replied by <a data-name="swordray" href="/swordray">shilei</a><abbr class="timeago" title="2014-04-19T17:27:10+08:00"></abbr>
+                             </em>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+					</div>
+										</div>
+					<div class="thumbnail">
+					     <div class="topics">
+                        <div class="topic topic_line">
+                    <div class="pull-left avatar">
+                      <a href="/hmilym"><img alt="4798" class="uface" src="http://l.ruby-china.org/user/large_avatar/4798.jpg" style="width:48px;height:48px;" /></a>
+                    </div>
+                    
+                    <div class="right_info">
+                      <div class="pull-right replies">
+                          <a class="count state_false" href="/topics/18610#reply14">9</a>
+                      </div>
+                      <div class="infos">
+                        <div class="title">
+                          <a href="/topics/18610" title="Is there an AR association to do this??">Is there an AR association to do this?</a>    
+                        </div>
+                        <div class="media-body">
+                        <p>
+								                  I have an equipment model and a technician model:<br></br>
+                  class Device < ActiveRecord::Base<br></br>
+                    attr_accessible :name, :technician_id, :backup_tech_id<br></br>
+                    belongs_to :technician<br></br>
+                  end<br></br>
+                  class Technician < ActiveRecord::Base<br></br>
+                    attr_accessible :name<br></br>
+                    has_many :devices<br></br>
+                  end<br></br>
+                  Each Device has to have a primary technician and a backup technician. Obviously it wouldn't make sense to create a separate "BackupTech" model so my question is, is there some AR association voodoo that will let me use a Technician as a "BackupTech"?
+                   
+                  Thanks.
+					 </p>
+		                  </div>
+                        <div class="info">
+                          <a class="node" href="/topics/node2">KTH</a>
+                          •
+                          <a data-name="special" href="/special">Ruby on rails</a>
+                          <em>
+                            •
+                              Last replied by <a data-name="swordray" href="/swordray">swordray</a><abbr class="timeago" title="2014-04-19T17:27:10+08:00"></abbr>
+                          </em>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+					</div>
+							</div>			
+		
+		
+		<div class="thumbnail">
+					     <div class="topics">
+                        <div class="topic topic_line">
+                    <div class="pull-left avatar">
+                      <a href="/yehualiu"><img alt="D5dd6326015b4547335ca2ad8ff86ca0" class="uface" src="http://ruby-china.org/avatar/d5dd6326015b4547335ca2ad8ff86ca0.png?s=96&amp;d=404" style="width:48px;height:48px;" /></a>
+                    </div>
+                    
+                    <div class="right_info">
+                      <div class="pull-right replies">
+                          <a class="count state_false" href="/topics/18610#reply14">25</a>
+                      </div>
+                      <div class="infos">
+                        <div class="title">
+                          <a href="/topics/18610" title="Cannot Generate a Migration">Cannot Generate a Migration</a>    
+                        </div>
+                        <div class="media-body">
+                        <p>
+								Hello,
+ 
+I am trying to add a migration to add a column to a model in rails 4.
+When I execute
+ 
+rails g migration AddMbtiTestToProfiles mbti_test:string
+ 
+It tells me the operation succeeded, but no migration has been added
+to the db/migrate folder.
+ 
+I am stuck at this point and have no clue how to resolve this.
+ 
+Any help will be greatly appreciated.
+							</p>
+		                  </div>
+                        <div class="info">
+                          <a class="node" href="/topics/node2">KTH</a>
+                          •
+                          <a data-name="special" href="/special">Ruby on rails</a>
+                          <em>
+                            •
+                              Last replied by <a data-name="swordray" href="/swordray">panda</a><abbr class="timeago" title="2014-04-19T17:27:10+08:00"></abbr>
+                          </em>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+					</div>
+							</div>			
+								
+			</ul>
+			<div class="pagination">
+				<ul>
+					<li>
+						<a href="#">Previous</a>
+					</li>
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">4</a>
+					</li>
+					<li>
+						<a href="#">5</a>
+					</li>
+					<li>
+						<a href="#">Next</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="span3">
+			<form class="form-search">
+				<input class="input-small search-query" type="text" /><button type="submit" class="btn">Search</button>
+			</form>
+			<div class="media well">
+				 <a href="#" class="pull-left"><img src="img/a_002.jpg" class="media-object" alt='' /></a>
+				<div class="media-body">
+					<h4 class="media-heading">
+						ADS
+					</h4> add ads here
+				</div>
+			</div>
+			          <div style="background-color:white;">
+			                  <h3>
+										Events
+									</h3>
+			                  
+									<div class="well well-sm">
+										<div class="row">
+											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<h4>
+										   Ice hockey match
+									      </h4>
+											<p>
+													Date: <small>04/19/2014</small> <br> Time: <small>1:00(PM)</small>
+											</p>
+									      <p>
+                                 KTH VS CTH
+									      </p>
+									      <div class="row">
+										      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+											       <a class="btn btn-default btn-sm" href="#">Register now</a>
+										      </div>
+									      </div>
+											</div>
+										</div>
+									</div>
+                           <div class="well well-sm">
+										<div class="row">
+											<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+											<h4>
+										   Let's party~
+									      </h4>
+											<p>
+													Date: <small>04/19/2014</small> <br> Time: <small>5:00(PM)</small>
+											</p>
+									      <p>
+                                 Pajama Party
+									      </p>
+									      <div class="row">
+										      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+											       <a class="btn btn-default btn-sm" href="#">Register now</a>
+										      </div>
+									      </div>
+											</div>
+										</div>
+									</div>
+                           
+			</div>
+						
+		</div>
+	</div>
+</div>
 
+</body>
