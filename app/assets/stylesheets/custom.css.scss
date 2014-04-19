@@ -54,7 +54,7 @@ p {
 }
 body.background
 {
-  background: url(background1.jpg);
+  background-image: asset-data-url("background1.jpg")
 }
 
 div.intro
