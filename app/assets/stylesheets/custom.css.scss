@@ -52,7 +52,11 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
-
+body.background
+{
+  background: url(background.jpg);
+  border: 2px solid #ffffff;
+}
 div.intro
 {
   background: url(background.png);
