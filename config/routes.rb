@@ -7,6 +7,7 @@ Studentshood::Application.routes.draw do
   match '/about',   to: 'home#about',   via: 'get'
   match '/contact',   to: 'home#contact',   via: 'get'
   match '/kth',   to: 'home#kth',   via: 'get'
+  match '/group',   to: 'home#group',   via: 'get'
   match '/signup',  to: 'users#new',    via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'

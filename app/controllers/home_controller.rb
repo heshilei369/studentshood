@@ -13,4 +13,7 @@ class HomeController < ApplicationController
   
   def kth
   end
+  
+  def group
+  end
 end
