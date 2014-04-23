@@ -322,7 +322,7 @@
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" class="img-circle" />
+     <%= link_to image_tag("more.png", alt: "Jingxiang Gou",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
@@ -338,7 +338,7 @@ github是一个全球化的开源社区.
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" class="img-circle" />
+     <%= link_to image_tag("more.png", alt: "Shilei He",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
@@ -354,7 +354,7 @@ github是一个全球化的开源社区.
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" class="img-circle" />
+     <%= link_to image_tag("more.png", alt: "More",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
@@ -372,7 +372,7 @@ github是一个全球化的开源社区.
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" />
+     <%= link_to image_tag("more.png", alt: "More",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
@@ -388,7 +388,7 @@ github是一个全球化的开源社区.
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" />
+     <%= link_to image_tag("more.png", alt: "More",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
@@ -404,7 +404,7 @@ github是一个全球化的开源社区.
 <div class="span4">
 </div>
 <div class="span4">
-<img alt="140x140" src="img/a.jpg" />
+     <%= link_to image_tag("more.png", alt: "More",class: "img-circle center-block"), '#' %>
 </div>
 <div class="span4">
 </div>
