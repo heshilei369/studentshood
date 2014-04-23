@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<%= link_to image_tag("study-hard.jpg", alt: "Royal Institute of Technology"), '#' %>
+						<%= link_to image_tag("study-stuff1.jpg", alt: "Royal Institute of Technology"), '#' %>
 						<div class="carousel-caption">
 							<h4>
 								Study easy
@@ -49,36 +49,58 @@
 		</div>
 	</div>
 
-<ul class="nav nav-pills">
-  <li class="active"><a href="#">Home</a></li>
-  <li class="disabled"><a href="#">Google Search</a></li>
-</ul>
-<div class="col-lg-12">
-    <div class="input-group">
-      <input type="text" class="form-control">
-      <span class="input-group-btn">
-        <button class="btn btn-right" type="button">Hood up!</button>
-      </span>
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="tabbable" id="tabs-417631">
+				<ul class="nav nav-tabs">
+					<li class="active">
+						<a href="#panel-6060" data-toggle="tab">Home Search</a>
+					</li>
+					<li>
+						<a href="#panel-315550" data-toggle="tab">Google Search</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane tab-primary active" id="panel-6060">
+						<p>
+
+						</p>
+					</div>
+					<div class="tab-pane tab-primary" id="panel-315550">
+						<p>
+
+						</p>
+					</div>
+				</div>
+			</div>
+			<form class="form-search">
+				<input class="input-large search-query" type="text" /> <button type="submit" class="btn btn-info"><b>Search</b></button>
+			</form>
+		</div>
+	</div>
+</div>
 
 
 <div class="container-fluid">
 	<div class="span12">
 	<div class="row">
-		<div class="span4 titleblock">
+		<div class="span3 titleblock">
 		   <h4>Royal Institute of Technology</h4>
 		</div>
 
-		<div class="span4 titleblock">
+		<div class="span3 titleblock">
 		<h4>Stockholm University</h4>
 		</div>
 
-		<div class="span4 titleblock">
+		<div class="span3 titleblock">
 		<h4 >Chalmers University of Technology</h4>
 		</div>
 	
+	   <div class="span3 titleblock">
+		<h4 >Karolinska Institutet</h4>
+		</div>
+		
 	</div>
 	</div>
 </div>
@@ -86,24 +108,29 @@
 <div class="container-fluid">
 	<div class="span12">
 	<div class="row">
-		<div class="span4 img">
+		<div class="span3 img">
 			<%= link_to image_tag("kth.jpg", alt: "Royal Institute of Technology",class: "img-circle"), kth_path %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+						<p><a href="#" class="btn btn-info btn-large">Learn more &raquo;</a></p>
 
 		</div>
 
-		<div class="span4 img">
+		<div class="span3 img">
 			<%= link_to image_tag("su.png", alt: "Stockholm University",class: "img-circle"), '#' %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+						<p><a href="#" class="btn btn-info btn-large">Learn more &raquo;</a></p>
 
 		</div>
 
-		<div class="span4 img">
+		<div class="span3 img">
 			<%= link_to image_tag("cth.jpg", alt: "Chalmers University of Technology",class: "img-circle"), '#' %>
-						<p><a href="#" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+						<p><a href="#" class="btn btn-info btn-large">Learn more &raquo;</a></p>
 
 		</div>
 	
+	   <div class="span3 img">
+			<%= link_to image_tag("KI.png", alt: "Karolinska Institutet",class: "img-circle"), '#' %>
+						<p><a href="#" class="btn btn-info btn-large">Learn more &raquo;</a></p>
+
+		</div>
 	</div>
 	</div>
 </div>
@@ -216,15 +243,15 @@
 <div class="row-fluid">
 <ul class="thumbnails">
   <li class="span4">
-    <div class="thumbnail imgicon">
+    <div class="thumbnail">
      <%= link_to image_tag("study.png", alt: "Study",class: "img-circle center-block"), '#' %>
       <h3 class = "text-center"><font color="#848484">Study</h3>
-      <p class = "text-center"><b>Find your studybody...<b></p>
+      <p class = "text-center"><b>Find your studybody...</b></p>
     </div>
   </li>
   
  <li class="span4">
-    <div class="thumbnail imgicon">
+    <div class="thumbnail">
      <%= link_to image_tag("jobs.png", alt: "Jobs",class: "img-circle center-block"), '#' %>
       <h3 class = "text-center"><font color="#045FB4">Job</h3>
       <p class = "text-center"><b>For your future career...</b><p>
@@ -232,7 +259,7 @@
   </li>
 
  <li class="span4">
-    <div class="thumbnail imgicon">
+    <div class="thumbnail">
      <%= link_to image_tag("market.png", alt: "Market",class: "img-circle center-block"), '#' %>
       <h3 class = "text-center"><font color="#088A08">Market</h3>
       <p class = "text-center"><b>Buy & Sale, anything you like...</b></p>
@@ -252,7 +279,7 @@
   </li>
   
  <li class="span4">
-    <div class="thumbnail imgicon">
+    <div class="thumbnail">
      <%= link_to image_tag("Bargain.png", alt: "Discounts",class: "img-circle center-block"), '#' %>
       <h3 class = "text-center"><font color="#FE9A2E">Bargains</h3>
       <p class = "text-center"><b>Discounts and coupons!...</b></p>
@@ -260,7 +287,7 @@
   </li>
 
  <li class="span4">
-    <div class="thumbnail imgicon">
+    <div class="thumbnail">
      <%= link_to image_tag("Events.png", alt: "Events",class: "img-circle center-block"), '#' %>
       <h3 class = "text-center"><font color="#B43104">Events</h3>
       <p class = "text-center"><b>What's going on around?</b></p>
@@ -286,6 +313,112 @@
 </ul>
 
 
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span12">
+<div class="row-fluid">
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" class="img-circle" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" class="img-circle" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" class="img-circle" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+<div class="span4">
+<div class="row-fluid">
+<div class="span4">
+</div>
+<div class="span4">
+<img alt="140x140" src="img/a.jpg" />
+</div>
+<div class="span4">
+</div>
+</div>
+<blockquote>
+<p>
+github是一个全球化的开源社区.
+</p> <small>关键词 <cite>开源</cite></small>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
